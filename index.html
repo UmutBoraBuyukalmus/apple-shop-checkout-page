@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Device Shop Checkout | devChallenges.io</title>
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        padding: 16px 0;
+      }
+
+      .author-info a {
+        text-decoration: none;
+        color: rgb(56, 97, 158);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-bg"></div>
+
+    <header>
+      <h1>Checkout</h1>
+      <span class="badge text-bg-dark fw-medium rounded-pill">3 items</span>
+    </header>
+
+    <div class="container-fluid px-0">
+      <div class="main-row">
+        <div class="column1 py-1">
+          <div id="product-card" class="card m-4">
+            <div class="row g-0 justify-content-center align-items-center">
+              <div class="col-sm-2 col-3">
+                <div class="product-img rounded">
+                  <img src="resources/Orange@2x.png" alt="" class="img-fluid" />
+                </div>
+              </div>
+              <div class="col">
+                <div class="card-body ms-2 ps-3 pe-0 py-0">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="product-features">
+                        <h6>iPhone 17 Pro</h6>
+                        <p>Orange</p>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="price text-end">
+                        <h6 class="fw-bold">$999.00</h6>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="product-quantity">x 1</div>
+                    </div>
+                    <div class="col-6">
+                      <div class="delete text-end">
+                        <i class="fa-solid fa-xmark"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="product-card" class="card m-4">
+            <div class="row g-0 justify-content-center align-items-center">
+              <div class="col-sm-2 col-3">
+                <div class="product-img rounded">
+                  <img
+                    src="resources/Apple-watchx2.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <div class="col">
+                <div class="card-body ms-2 ps-3 pe-0 py-0">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="product-features">
+                        <h6>Apple Watch</h6>
+                        <p>Black</p>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="price text-end">
+                        <h6 class="fw-bold">$399.00</h6>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="product-quantity">x 1</div>
+                    </div>
+                    <div class="col-6">
+                      <div class="delete text-end">
+                        <i class="fa-solid fa-xmark"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="product-card" class="card m-4">
+            <div class="row g-0 justify-content-center align-items-center">
+              <div class="col-sm-2 col-3">
+                <div class="product-img rounded">
+                  <img src="resources/iMac.png" alt="" class="img-fluid" />
+                </div>
+              </div>
+              <div class="col">
+                <div class="card-body ms-2 ps-3 pe-0 py-0">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="product-features">
+                        <h6>iMac</h6>
+                        <p>Green</p>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="price text-end">
+                        <h6 class="fw-bold">$1199.00</h6>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="product-quantity">x 1</div>
+                    </div>
+                    <div class="col-6">
+                      <div class="delete text-end">
+                        <i class="fa-solid fa-xmark"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="m-4" />
+          <div class="input-group px-4">
+            <input
+              type="text"
+              class="form-control p-3"
+              placeholder="Enter coupon code"
+            />
+            <button type="button" class="btn btn-primary p-3">
+              Apply Coupon
+            </button>
+          </div>
+
+          <table class="m-4">
+            <tr>
+              <th scope="row" class="pb-2" style="color: #394150">Sub total</th>
+              <td
+                class="text-end pb-2"
+                style="color: #394150; font-weight: 600"
+              >
+                $2597.00
+              </td>
+            </tr>
+            <tr>
+              <th scope="row" class="pb-2" style="color: #394150">Tax</th>
+              <td
+                class="text-end pb-2"
+                style="color: #394150; font-weight: 600"
+              >
+                $623.28
+              </td>
+            </tr>
+            <tr>
+              <th scope="row" class="pb-4">Total</th>
+              <td class="text-end pb-4" style="font-weight: 600">$3220.28</td>
+            </tr>
+          </table>
+        </div>
+        <div class="column2 py-1">
+          <h6 class="fw-semibold m-4">Contact Information</h6>
+          <form class="m-4">
+            <label for="name" class="my-2">First & Last name</label>
+            <input
+              type="text"
+              class="form-control p-3 mb-4"
+              placeholder="Enter first & last name"
+            />
+
+            <label for="email" class="my-2">Email Address</label>
+            <input
+              type="email"
+              class="form-control p-3 mb-4"
+              placeholder="Enter email address"
+            />
+
+            <div class="row">
+              <div class="col">
+                <label for="country" class="my-2">Country</label>
+                <select class="form-select p-3 mb-4">
+                  <option value="">Finland</option>
+                </select>
+              </div>
+              <div class="col">
+                <label for="postal-code" class="my-2">Postal Code</label>
+                <input
+                  type="text"
+                  class="form-control p-3 mb-4"
+                  placeholder="00270"
+                />
+              </div>
+            </div>
+
+            <button type="button" class="btn btn-primary p-3">Continue</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="author-info">
+        Coded by <a href="#">Umut Bora Büyükalmus</a> | Challenge by
+        <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+          >devChallenges.io</a
+        >.
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
